@@ -17,3 +17,11 @@ puts [1, 2, 3]
 # Ruby has one more method, pp, for "pretty-printing" complex data, such as nested arrays and hashes (the Ruby equivalent of a JavaScript object)
 pp [{ id: 1, hello: "World" }, { id: 2, hello: "Ruby" }, { id: 3, hello: "Moon" }, { id: 4, hello: "Learner" }]
 # The pp method will "pretty-print" these objects by calling the (.pretty_inspect) method on our data.
+
+# Exploring Ruby wit IRB
+# Ruby comes with a tool called IRB (Interactive Ruby) for running a Ruby REPL (read-evaluate-print-loop) in the terminal
+# Using IRB is a great way to quickly test out some code, or check your syntax, without needing to run an entire application.
+# To use IRB run irb in the terminal.
+# When you run sth like puts "Hello IRB",
+# You'll notice that two lines are output: Hello IRB, then => nil. The first line is the output of the puts method; the second line is the return value of the puts method.
+# We exit the IRB process with the exit command or ctrl + d
